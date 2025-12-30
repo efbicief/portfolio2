@@ -1,9 +1,9 @@
 :root {
-    --bg: #202124;
+    --bg: rgba(20, 21, 22, 0.9);
     --secondary-bg: #3e4637;
   
-    --accent: #dbfa50;
-    --secondary-accent: #b7d726;
+    --accent: #cdf70f;
+    --secondary-accent: #6af71f;
   
     --text: #dedfd6;
     --secondary-text: #d8ded3;
@@ -20,6 +20,11 @@
     --slider-bg: #1f1f1f;
   
     --scrollbar-track: #5a6a50;
+
+    background-image: 
+      linear-gradient(90deg, #000000, transparent 80%),
+      linear-gradient(270deg, #000000, transparent 80%),
+      url(bg.png);
   }
   
   *,
@@ -62,7 +67,7 @@
   body {
     font-weight: 400;
     line-height: 1.5;
-    background-color: var(--bg);
+    /* background-color: var(--bg); */
     color: var(--text);
     font-family: ArialPixel, system-ui, sans-serif;
   }
@@ -226,9 +231,9 @@
     .cs-checkbox__label {
       cursor: pointer;
       display: inline-block;
-      -webkit-user-select: none;
-         -moz-user-select: none;
-              user-select: none;
+      /* -webkit-user-select: none; */
+         /* -moz-user-select: none; */
+              /* user-select: none; */
       color: var(--secondary--text);
       line-height: 0.9375rem;
   
@@ -318,9 +323,9 @@
     border: 1px solid;
     border-color: var(--border-dark) var(--border-light) var(--border-light)
       var(--border-dark);
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+    /* -webkit-user-select: none; */
+       /* -moz-user-select: none; */
+            /* user-select: none; */
   
     &:hover,
     &:focus-within {
@@ -520,9 +525,9 @@
     border-color: var(--border-light) var(--border-dark) var(--border-dark)
       var(--border-light);
     padding: 4px;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+    /* -webkit-user-select: none; */
+       /* -moz-user-select: none; */
+            /* user-select: none; */
   
     .heading {
       display: flex;
@@ -572,9 +577,9 @@
     display: inline-block;
     color: white;
     line-height: 1.25rem;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+    /* -webkit-user-select: none; */
+       /* -moz-user-select: none; */
+            /* user-select: none; */
   
     &:hover .text {
       visibility: visible;
@@ -624,9 +629,9 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+    /* -webkit-user-select: none; */
+       /* -moz-user-select: none; */
+            /* user-select: none; */
   
     .radiotab {
       position: absolute;
